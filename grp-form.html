@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Joining Form</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSES</a></li>
+          <li><a href="members.html">MEMBERS</a></li>
+          <li><a href="admin/login.html">ADMIN</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Join Group</h1>
+  </section>
+  
+  <!----- contact us ----->
+  <section class="location">
+    <img src="images/logo.jpg">
+  </section>
+  
+  
+  
+  <section class="contact-us">
+    <div class="row">
+      </div>
+      <div class="contact-col">
+        <form action="form-handler.php" method="post">
+          
+          <label for="Surname">Surname: </label>
+          <input type="text" name="surname" placeholder="Enter your Surname" required>
+          
+          <label for="othernames">Other Names:</label>
+          <input type="text" name="othernames" placeholder="Other Names" required>
+          
+          <label for="phone">Phone No:</label>
+          <input type="tel" name="phone" placeholder="Enter an active Phone number" required>
+          
+          <label for="State:">State of Origin:</label>
+          <input type="text" placeholder="Input your state" required>
+          
+          <label for="local">Local Government:</label>
+          <input type="text" placeholder="LGA" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Enter your email address (opt)">
+          
+          <label for="date">Date of birth:</label>
+          <input type="date" name="date" placeholder="Date of birth" required>
+          
+          <label for="gender">Gender:</label>
+          <select name="gender">gender
+          <option selected hidden value="">Select</option>
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+          <option value="o">Others</option>
+          </select>
+          
+          <br><br>
+          
+          <label for="Photo">Upload Photo:</label>
+          <input type="file">
+          
+          
+          <label for="address">Address:</label>
+          <textarea rows="8" name="address" placeholder="Address"required></textarea>
+          <button type="submit" class="hero-btn green-btn">Submit</button>
+          <button type="reset" class="hero-btn green-btn">Reset Form</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ 
+ 
+  
+  
+  <!------ footer ----->
+  
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>This is the NAG/JNI Down Quarters Detachment Official website<br>through this website,you can enroll in our courses</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+   <p>Made with <i class="fa fa-heart-o"></i> by <a href="https://www.facebook.com/ismail.yahayaassalafy"class="mgr-link">MGR Softwares</a></p>
+  </section>
+
+
+
+
+  
+  
+  <!------ JavaScript for toggle menu ------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+  
+
+</body>
+</html>

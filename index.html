@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAG/JNI Down Quarters</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+  
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSES</a></li>
+          <li><a href="members.html">MEMBERS</a></li>
+          <li><a href="admin/login.html">ADMIN</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>NAG/JNI Down Quarters</h1>
+      <p>Nigerian aid group of Jama'atu Nasril Islam,<br> Down Quarters Detachment Kaduna South Division</p>
+      <a href="team.html" class="hero-btn">Our Team</a>
+      <a href="gallery.html" class="hero-btn btn">Gallery</a>
+      <a href="morah.html" class="hero-btn">Morah</a>
+    </div>
+  </section>
+  
+  <!------ courses ------>
+  
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Below are some of the courses we offer</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Basic First Aid</h3>
+        <p>We offer you the best first aid courses you will ever find. These courses include nursing and midwifery</p>
+      </div>
+      <div class="course-col">
+        <h3>Catering</h3>
+        <p>We offer catering and culinary courses with practical as well as online and offline materials </p>
+      </div>
+      <div class="course-col">
+        <h3>Computer</h3>
+        <p>Some of the computer courses we offer include Basic training, CCNA, Computer programming and so on.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!------ campus ------>
+  
+  <div class="campus">
+    <h1>Our Local Camps</h1>
+    <p>Here are some of our proposed camps</p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/campus.jpg"  />
+        <div class="layer">
+          <h3>PROPOSED COLLEGE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/campus2.jpg"  />
+        <div class="layer">
+          <h3>PROPOSED OFFICE</h3>
+        </div>
+        </div>
+        <div class="campus-col">
+        <img src="images/bg2 1.jpg"  />
+        <div class="layer">
+          <h3>PROPOSED FIELD</h3>
+        </div>
+    </div>
+  </div>
+  
+  <!----- facilities ----->
+  
+    <section class="facilities">
+      <h1>Join Us Now</h1>
+      <p>Apply for some of our courses below</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/facility1.jpg" />
+          <h3>Join Group</h3>
+          <p>Join our group by filling out the application form below </p>
+          <a href="grp-form.html" class="hero-btn green-btn">Join Now </a>
+        </div>
+        <div class="facilities-col">
+          <img src="images/facility2.jpg" />
+          <h3>Catering Courses</h3>
+          <p>Enroll for our various catering and culinary classes here</p>
+          <a href="course-form1.html" class="hero-btn green-btn">Enroll Now</a>
+        </div>
+        <div class="facilities-col">
+          <img src="images/facility3.jpg" />
+          <h3>Computer Classes</h3>
+          <p>Apply for our basic computer training courses here</p>
+          <a href="course-form2.html" class="hero-btn green-btn">Enroll Now</a>
+        </div>
+      </div>
+    </section>
+  
+  
+  <!---- call to action ----->
+  
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>Anywhere From the World </h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+  
+  
+  <!------ footer ----->
+  
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>This is the NAG/JNI Down Quarters Detachment Official website<br>through this website,you can enroll in our courses</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by <a href="https://www.facebook.com/ismail.yahayaassalafy"class="mgr-link">MGR Softwares</a></p>
+    
+  </section>
+
+<!----- JS for smooth scroll ----->
+
+<script type="text/javascript">
+		var scroll = new SmoothScroll('a[href*="#"]', {
+		speed: 1000,
+		speedAsDuration: true
+		});
+
+</script>
+
+  
+  
+  <!------ JavaScript for toggle menu ------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+  
+
+</body>
+</html>
