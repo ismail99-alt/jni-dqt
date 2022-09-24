@@ -669,6 +669,43 @@ body{
 	
 }
 
+.info{
+  margin: 2%;
+  padding: 10px 5px;
+  position: relative;
+  background: #fff;
+  width: 230px;
+  text-align: center;
+  box-sizing: border;
+  box-shadow: 5px 4px 4px 5px rgba(30, 45, 50, 0.3);
+  transition: background .5s;
+}
+.info h4{
+  font-weight: bold;
+  font-variant: small-caps;
+  transition: .5s;
+}
+
+.info p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333;
+  letter-spacing: 0.35px;
+  transition: .5s;
+}
+.info:hover{
+  background: #075E54;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.info:hover h4{
+  color: #fff;
+}
+.info:hover p{
+  color: #fff;
+}
+
 .img-gallery{
 	width: 80%;
 	margin: 100px auto 50px;
