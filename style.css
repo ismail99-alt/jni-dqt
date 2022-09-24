@@ -653,11 +653,8 @@ body{
 	font-size: 20px;
 	font-variant:small-caps;
 	font-weight: bold;
-	color: #1abc9c;
+	color: green;
 	transition: .5s;
-}
-.title-text:hover h1{
-  color: #27ae60;
 }
 
 .title-text p{
